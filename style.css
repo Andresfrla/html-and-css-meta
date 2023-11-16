@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFBF5;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 20rem;
+    margin: 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F7EFE5;
+    list-style: none;
+}
+
+nav li {
+    background-color: #7743DB;
+    color: #FFFBF5;
+    margin: 1.5rem;
+    padding: 0.7rem 2rem;
+    border-radius: 15px;
+}
