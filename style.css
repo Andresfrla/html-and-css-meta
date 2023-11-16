@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: #FFFBF5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
@@ -9,7 +10,7 @@ header {
 }
 
 header img {
-    width: 20rem;
+    width: 10rem;
     margin: 2rem;
 }
 
@@ -26,4 +27,20 @@ nav li {
     margin: 1.5rem;
     padding: 0.7rem 2rem;
     border-radius: 15px;
+}
+
+.first-cut {
+    background-image: url('OIG.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 10rem; 
+    padding: 50px; 
+    position: relative; 
+    color: #F7EFE5;
+}
+
+.first-cut h1,
+.first-cut p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: transparent;
 }
