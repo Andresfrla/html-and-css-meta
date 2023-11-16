@@ -47,4 +47,45 @@ nav li {
 
 .second-row {
     display: flex;
+    text-align: center;
+    margin: 2rem;
+}
+
+.second-row article {
+    background-color: #C3ACD0;
+    border-radius: 20px;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.second-row article img {
+    width: 20rem;
+}
+
+.second-row article h2 {
+    margin: 1rem;
+    background-color: #C3ACD0;
+}
+.second-row article p {
+    text-align: justify;
+    margin: 2rem;
+    background-color: #C3ACD0;
+}
+
+.second-row article a {
+    background-color: #C3ACD0;
+    margin: 3rem;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    width: 20rem;
+    margin: 0 0 2rem 2rem;
 }
